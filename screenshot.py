@@ -1,6 +1,7 @@
 import time
 import pyautogui
 
+# slight issues with pyautogui
 def screenshot():
     name = int(round(time.time()*1000))
     name = "{}.png".format(name)
